@@ -14,6 +14,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { InMemoryDataService } from './in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 
@@ -24,7 +25,8 @@ import { InMemoryDataService } from './in-memory-data.service';
         HeroesComponent,
         HeroDetailComponent,
         MessagesComponent,
-        DashboardComponent
+        DashboardComponent,
+        HeroSearchComponent
     ],
     imports: [
         BrowserModule,
